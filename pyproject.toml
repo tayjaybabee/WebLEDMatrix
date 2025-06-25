@@ -1,0 +1,18 @@
+[project]
+name = "web-led-matrix"
+version = "1.0.0-dev.1"
+description = ""
+authors = [
+    {name = "Taylor B.",email = "t.blackstone@inspyre.tech"}
+]
+readme = "README.md"
+requires-python = ">=3.12,<4.0"
+dependencies = [
+    "is-matrix-forge (>=1.0.0.dev4,<2.0.0)",
+    "streamlit (>=1.46.0,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
